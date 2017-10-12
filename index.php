@@ -30,6 +30,8 @@
                 <?php
                     $ipRaspberry = "http://192.168.0.161:8081";
                     echo '<img id="imgImagen" src="'.$ipRaspberry.'"/>';
+                    $ipRaspberry1 = "http://lastmonkey.sytes.net:8081";
+                    echo '<img id="imgImagen" src="'.$ipRaspberry1.'"/>';
                 ?>
             </div>
             <div id="cuerpo">
