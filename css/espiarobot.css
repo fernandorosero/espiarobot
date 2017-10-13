@@ -7,7 +7,18 @@ and open the template in the editor.
     Created on : 07-oct-2017, 14:03:05
     Author     : macf3rn4nd0
 */
+body {
+  background-color: #DDDDDD;
+}
 
+/***********NAV**************/
+.imgCoorp{
+    height: 85px;
+    border-radius: 50%;
+    margin-top: 8px;
+    margin-bottom: -47px;
+}
+/***********NAV**************/
 #contenedor{
     margin: 0 auto;
     width: 700px;
@@ -52,6 +63,15 @@ and open the template in the editor.
 }
 #click-atras{
     margin-top: 4px;
+}
+#footer{
+    padding-top: 19px;
+    background: black;
+    color: #fefefe;
+    width: 100%;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
 @media only screen and (max-width: 767px) { 
     #imgImagen{
