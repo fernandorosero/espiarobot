@@ -8,7 +8,6 @@ and open the template in the editor.
     Author     : macf3rn4nd0
 */
 
-
 #contenedor{
     margin: 0 auto;
     width: 700px;
@@ -41,6 +40,18 @@ and open the template in the editor.
 }
 #mandoControl{
     margin-bottom: 15px;
+}
+#click-izquierda, #click-stop, #click-derecha{
+    margin-top: 4px;
+}
+#click-izquierda{
+    margin-right:  4px;
+}
+#click-derecha{
+    margin-left: 4px;
+}
+#click-atras{
+    margin-top: 4px;
 }
 @media only screen and (max-width: 767px) { 
     #imgImagen{

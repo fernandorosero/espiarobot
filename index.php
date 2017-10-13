@@ -68,7 +68,7 @@
                             <td></td>
                             <td>
                                 <button class="btn btn-success btn-lg glyphicon glyphicon-arrow-up"
-                                        id="click-delante"
+                                        id="click-adelante"
                                         onclick="javascript:Adelante();"></button>
 
                             </td>
