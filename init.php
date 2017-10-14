@@ -17,3 +17,4 @@
 
     <!-- Estilos -->
     <link rel="stylesheet" type="text/css" href="css/espiarobot.css"/>
+    <link rel="shortcut icon" href="ico/FaviconLastMonkey.png">

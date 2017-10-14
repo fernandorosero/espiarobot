@@ -19,6 +19,12 @@ body {
     margin-bottom: -47px;
 }
 /***********NAV**************/
+
+/**********SECTION***********/
+#section{
+    text-align: center;
+}
+/**********SECTION***********/
 #contenedor{
     margin: 0 auto;
     width: 700px;
