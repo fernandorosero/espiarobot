@@ -1,11 +1,8 @@
-
 <?php
     $parametroVista = $_GET["acceso"];
     echo 'El parametro es:'.$parametroVista;
-?>
 
-<?php
-include_once './init.php';
+    include_once './init.php';
 ?>
 
 <div class="container">
@@ -39,8 +36,5 @@ include_once './init.php';
  </div> <!-- /container -->
  
  
- 
-<style type="text/css">
- body { background-color: #eee; }
-</style>
+
     
