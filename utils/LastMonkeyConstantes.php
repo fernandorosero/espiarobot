@@ -16,10 +16,17 @@
             . "password varchar (20) not null, "
             . "primary key (id_usuario));";
     
+    $tabla_accesos="CREATE TABLE IF NOT EXISTS accesos "
+            . "(id_acceso integer unsigned not null auto_increment,"
+            . "acceso varchar(30) not null, "
+            . "puerto varchar (20) not null, "
+            . "uri varchar(30)  not null,"
+            . "primary key (id_acceso));";
+    
     /*Local*/
-    $url="localhost";
-    $user="root";
-    $password="4545";
+    $url = "localhost";
+    $user = "root";
+    $password = "";
     
     /*Produccion
     $url="localhost";
