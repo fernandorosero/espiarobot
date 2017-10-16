@@ -9,6 +9,7 @@
     
     <!-- JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/utils.js"></script>
    
     
     <!-- Latest compiled and minified CSS -->

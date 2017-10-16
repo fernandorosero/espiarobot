@@ -27,11 +27,18 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Accesos <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a href="loggin.php?acceso=local">Local</a>
+                                <form name='loginSendLocal' action="loggin.php" method="POST">
+                                    <input type="hidden" name="acceso" value="local"/>
+                                    <a href="#" onclick="javascript:enviarFormLocal();">Local</a>
+                                </form>
+                                
                             </li>
                             <li role="separator" class="divider"></li>
                             <li>
-                                <a href="loggin.php?acceso=www">Web WWW</a>
+                                <form name='loginSendWeb' action="loggin.php" method="POST">
+                                    <input type="hidden" name="acceso" value="www"/>
+                                    <a href="#" onclick="javascript:enviarFormWeb();">Web WWW</a>
+                                </form>
                             </li>
                         </ul>
                     </li>

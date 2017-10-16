@@ -25,6 +25,20 @@ body {
     text-align: center;
 }
 /**********SECTION***********/
+
+/***********LOGGIN******************/
+#usuarioErroneo{
+    border-radius: 6px;
+    margin: 0 auto;
+    padding: 12px 20px 16px 20px;
+    text-align: justify;
+    border: 1px solid #d8b6c7;
+    color: #666;
+    background-color: #fceaea;
+    width: 36%;
+    margin-top: 20px;
+}
+/**************LOGGIN*****************/
 #contenedor{
     margin: 0 auto;
     width: 700px;
