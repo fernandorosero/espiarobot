@@ -13,6 +13,8 @@
             include_once './nav.php';
         ?>
         
+        
+        
         <?php
         
             if(isset($_POST['usuario'])){
@@ -30,20 +32,16 @@
                 }
             
             if (isset($_SESSION['usuario'])){
-                echo '<p>Sesion iniciada:'.$_SESSION['usuario'].'';
-                echo '<p><a href="controller/FinSession.php">Cerrar sesion</a></p>';
+                //echo '<p>Sesion iniciada:'.$_SESSION['usuario'].'';
+                ///echo '<p><a href="controller/FinSession.php">Cerrar sesion</a></p>';
             }
             else{
-                echo 'no session';
+                //echo 'no session';
             }
         ?>
         
-        <?php
-            
-        ?>
-        <?php
-            
-        ?>
+        
+
         <?php
             include_once './footer.php';
         ?>

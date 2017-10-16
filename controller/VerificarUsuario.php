@@ -7,6 +7,8 @@
     $parametroVista = filter_input(INPUT_POST, 'parametroVista');
     $usuario = filter_input(INPUT_POST, 'usuario');
     $password = filter_input(INPUT_POST,'password');
+    $pathAbsolute = filter_input(INPUT_POST, 'pathAbsolute');
+    
     include_once '../model/AbreConexionBBDD.php';
     $query_verify_user = "select * from usuarios "
             . "where (usuario='$usuario' && "
@@ -23,6 +25,7 @@
                 echo"<form name='loginSend' action='../index.php' method='post'>";
                     echo"<input type='hidden' name='usuario' value='$usuario'/> ";
                     echo"<input type='hidden' name='acceso' value='$parametroVista'/> ";
+                    echo"<input type='hidden' name='pathAbsolute' value='$pathAbsolute'/> ";
                 echo"</form>";
             echo"</body>";    
          
@@ -35,6 +38,7 @@
                     echo"<input type='hidden' name='errorusuario' value='$errorUsuario'/> ";
                     echo"<input type='hidden' name='usuario' value='$usuario'/> ";
                     echo"<input type='hidden' name='acceso' value='$parametroVista'/> ";
+                    echo"<input type='hidden' name='pathAbsolute' value='$pathAbsolute'/> ";
                 echo"</form>";
             echo"</body>";
         /*echo 'EL usuario no existe!';*/

@@ -1,10 +1,12 @@
 <?php
     $parametroVista = filter_input(INPUT_POST, 'acceso');
-    echo 'El parametro es:'.$parametroVista;
+    //echo 'El parametro es:'.$parametroVista;
 
     include_once './init.php';
     $usuario = filter_input(INPUT_POST, 'usuario');
     $errorUsuario = filter_input(INPUT_POST, 'errorusuario');
+    $pathAbsolute = filter_input(INPUT_POST, 'pathAbsolute');
+    //echo 'url:::'.$pathAbsolute;
     
     if($errorUsuario == 300){
         echo '<p id="usuarioErroneo">El usuario '.$usuario.' no existe, verifique sus datos</p>';
@@ -25,6 +27,7 @@
                 >
         <?php
             echo"<input type='hidden' name='parametroVista' value='$parametroVista'/> ";
+            echo"<input type='hidden' name='pathAbsolute' value='$pathAbsolute'/> ";
         ?>
         
         <div class="checkbox">
