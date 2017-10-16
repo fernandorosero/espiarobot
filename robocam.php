@@ -6,11 +6,14 @@
                 $host= $_SERVER["HTTP_HOST"];
                 $url= $_SERVER["REQUEST_URI"];
                 $pathAbsolute = "http://" . $host . $url;
-                echo 'host: '.$host;
-                echo ' url: '.$url;
+               // echo 'host: '.$host;
+               // echo ' url: '.$url;
                 //echo $pathAbsolute;
+                if ($host == "localhost") {
+                    $host = "192.168.0.161";
+                }
                 $ipRaspberry = "http://".$host.":8081";
-                echo 'Es la variable: : '.$ipRaspberry;
+                //echo 'Es la variable: : '.$ipRaspberry;
                 //$ipRaspberry = "http://192.168.0.161:8081";
                 echo '<img id="imgImagen" src="'.$ipRaspberry.'"/>';
                 //$ipRaspberry1 = "http://lastmonkey.sytes.net:8081";
