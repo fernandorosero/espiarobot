@@ -3,10 +3,18 @@
     <div id="contenedor">
         <div id="imagen">
             <?php
-                $ipRaspberry = "http://192.168.0.161:8081";
+                $host= $_SERVER["HTTP_HOST"];
+                $url= $_SERVER["REQUEST_URI"];
+                $pathAbsolute = "http://" . $host . $url;
+                echo 'host: '.$host;
+                echo ' url: '.$url;
+                //echo $pathAbsolute;
+                $ipRaspberry = "http://".$host.":8081";
+                echo 'Es la variable: : '.$ipRaspberry;
+                //$ipRaspberry = "http://192.168.0.161:8081";
                 echo '<img id="imgImagen" src="'.$ipRaspberry.'"/>';
-                $ipRaspberry1 = "http://lastmonkey.sytes.net:8081";
-                echo '<img id="imgImagen1" src="'.$ipRaspberry1.'"/>';
+                //$ipRaspberry1 = "http://lastmonkey.sytes.net:8081";
+                //echo '<img id="imgImagen1" src="'.$ipRaspberry1.'"/>';
             ?>
         </div>
         <div id="cuerpo">
