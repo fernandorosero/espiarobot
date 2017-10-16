@@ -37,13 +37,13 @@
         </div>
         <a href="recuperaPassword.php">¿Ha olvidado su contrase&ntilde;a?</a>
         <br/><br/>
-        
-        <div class="col-md-6">
-            <a href="index.php" class="btn btn-primary btn-block" style="margin-top: 3px;">Cancelar</a>
-        </div>
         <div class="col-md-6">
             <button class="btn btn-primary btn-block" style="margin-top: 3px;" type="submit">Entrar</button>
         </div>
+        <div class="col-md-6">
+            <a href="index.php" class="btn btn-primary btn-block" style="margin-top: 3px;">Cancelar</a>
+        </div>
+        
         
       </form>
     </div>
