@@ -6,8 +6,8 @@
                 $host= $_SERVER["HTTP_HOST"];
                 $url= $_SERVER["REQUEST_URI"];
                 $pathAbsolute = "http://" . $host . $url;
-               // echo 'host: '.$host;
-               // echo ' url: '.$url;
+                //echo 'host: '.$host;
+                //echo ' url: '.$url;
                 //echo $pathAbsolute;
                 if ($host == "localhost") {
                     $host = "192.168.0.161";
