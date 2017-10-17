@@ -103,4 +103,9 @@ body {
     #contenedor{
         width: 350px;
     }
+    #btnCerrarSession{
+        float: left;
+        margin-left: 52px;
+        margin-top: -10px;   
+    }
 }
