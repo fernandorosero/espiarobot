@@ -45,7 +45,7 @@
                 //echo '<a href="controller/FinSession.php">Cerrar sesion</a></p>';
                 echo '<form style="margin-bottom: -29px;"  action="controller/FinSession.php" method="POST">';
                 echo "<input type='hidden' name='pathAbsolute' value='$pathAbsolute'/> ";
-                echo '<button class="btn-success" type="submit">Cerrar sesion</button>';
+                echo '<button id ="btnCerrarSession" class="btn-success" type="submit">Cerrar sesion</button>';
                 echo '</form>';
             }
                 ?>
