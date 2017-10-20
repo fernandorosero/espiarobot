@@ -20,6 +20,12 @@
                 //echo '<img id="imgImagen1" src="'.$ipRaspberry1.'"/>';
             ?>
         </div>
+        <div>
+            <button class="btn btn-danger" 
+                    id="led_prueba" 
+                    onclick="javascript:PruebaLed();"
+                    >Prueba LED</button>
+        </div>
         <div id="cuerpo">
             <div id="botonera">
                 <table id="tablaBotonera">

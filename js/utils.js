@@ -17,3 +17,19 @@ function volverIndex(){
     document.returnIndex.submit();
 }
 
+/*********PYTHON******************/
+function PruebaLed(){
+    $.ajax({
+          
+           url:'php_python/web_left_right.php',
+           type:'GET',
+           success: function(){
+             
+             alert("very nice");
+           },
+           error: function(){
+               alert("no junjona ajax!!!!");
+           }
+        });
+}
+/*********PYTHON*************/
