@@ -32,6 +32,9 @@ body {
 #section{
     text-align: center;
 }
+#section img{
+    border-radius: 5px;
+}
 /**********SECTION***********/
 
 /***********LOGGIN******************/
@@ -60,7 +63,6 @@ body {
     /*background: #1f1f1f;*/
 }
 #imagen{
-    
     text-align: center;
 }
 #imgImagen{
@@ -132,6 +134,17 @@ body {
 }
 #botoneraFormContacto button, a{
     width: 100px;
+}
+#usuarioOk{
+    border-radius: 6px;
+    margin: 0 auto;
+    padding: 12px 20px 16px 20px;
+    text-align: justify;
+    border: 1px solid #5cb85c;
+    color: #666;
+    background-color: #dff0d8;
+    width: 36%;
+    margin-top: 20px;
 }
 /**********CONTACTO*******************/
 @media only screen and (max-width: 767px) { 

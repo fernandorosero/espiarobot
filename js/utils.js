@@ -10,6 +10,9 @@ function enviarFormWeb(){
 function volverLogin(){
     document.loginreturn.submit();
 }
+function volverContacto(){
+    document.contactoreturn.submit();
+}
 function volverIndex(){
     document.returnIndex.submit();
 }
