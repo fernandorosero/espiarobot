@@ -14,7 +14,9 @@
             <label for="exampleFormControlTextarea1">Comentario</label>
             <textarea name="comentario" placeholder="Ingrese su comentario" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary btn-sm">Enviar</button>
-        <a href="index.php" class="btn btn-primary btn-sm">Cancelar</a>
+        <div id="botoneraFormContacto">
+            <button type="submit" class="btn btn-primary btn-sm">Enviar</button>
+            <a href="index.php" class="btn btn-primary btn-sm">Cancelar</a>
+        </div>
     </form>
 </div>

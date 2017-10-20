@@ -18,7 +18,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand visible-xs" href="index.php">Last Monkey</a>
+                <a id="textoNavMovil" class="navbar-brand visible-xs" href="index.php">Last Monkey</a>
                 <!--
                 visible-xs  visible en movil
                 hidden-xs visible en web

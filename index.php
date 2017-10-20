@@ -1,20 +1,13 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-        <title>The Last Monkey</title>
-        <?php
-            include_once './init.php';
-        ?>
-    </head>
+<html>    
+    <?php
+        include_once './init.php';
+    ?>
+    
     <body>
         <?php
             include_once './nav.php';
         ?>
-        
-        
-        
         <?php
         
             if(isset($_POST['usuario'])){
