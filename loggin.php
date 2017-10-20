@@ -36,7 +36,7 @@
                 <button class="btn btn-primary btn-block" style="margin-top: 3px;" type="submit">Entrar</button>
             </div>
             <div class="col-md-6">
-                <a href="index.php" class="btn btn-primary btn-block" style="margin-top: 3px;">Cancelar</a>
+                <a href="index.php" class="btn btn-primary btn-block" style="margin-top: 3px;">Volver</a>
             </div>
         </form>
     
