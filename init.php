@@ -1,8 +1,6 @@
-<?php
-
-?>
-
-    
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+    </head>
     
     <!-- jQuery -->
     <script src="js/jquery-2.1.4.min.js"></script>
