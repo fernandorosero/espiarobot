@@ -22,8 +22,8 @@ function PruebaLed(){
     $.ajax({
           
            url:'php_python/web_left_right.php',
-           type:'GET',
-           success: function(){
+           type:'POST',
+           success: function(response){
              
              alert("very nice");
            },
