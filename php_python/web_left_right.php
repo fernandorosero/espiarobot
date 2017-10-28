@@ -3,7 +3,7 @@
     echo ("<H1>pasas:</H1>");
     
     
-    $command = escapeshellcmd('/var/www/html/espiarobot/python/led.py');
+    $command = escapeshellcmd('sudo python /var/www/html/espiarobot/python/led.py');
     $output = shell_exec($command);
     echo "Otra prueba".$output;
     //$posicion = $_POST["valorLR"];
