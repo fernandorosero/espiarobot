@@ -13,5 +13,5 @@ for i in range(3):
     print"OFF"
     GPIO.output(4, GPIO.LOW)
     time.sleep(1)
-print "posicion %s"%( posicion)
+print "----DEsde python-posicion: %s"%( posicion)
 GPIO.cleanup() #Reiniciar configuracion pins GPIO
