@@ -1,5 +1,6 @@
 <?php
-    echo exec("/usr/bin/python2.7 /var/www/html/espiarobot/python/led.py");
+    $posicion = 20;
+    echo exec("/usr/bin/python2.7 /var/www/html/espiarobot/python/led.py".$posicion.'');
     echo ("<H1>pasas:</H1>");
     
     
