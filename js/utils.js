@@ -21,7 +21,7 @@ function volverIndex(){
 function PruebaLed(){
     $.ajax({
           
-           url:'php_python/web_left_right.php',
+           url:'php_python/prueba_led.php',
            type:'POST',
            success: function(response){
              
