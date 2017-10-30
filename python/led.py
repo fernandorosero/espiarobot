@@ -1,5 +1,5 @@
-from sys import argv
-script, posicion = argv
+#from sys import argv
+#script, posicion = argv
 
 import RPi.GPIO as GPIO #Libreria Python GPIO
 import time #Libreria Time
