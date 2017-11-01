@@ -8,7 +8,6 @@
     $errorUsuario = filter_input(INPUT_POST, 'errorusuario');
     include_once '../model/AbreConexionBBDD.php';
     $resultado_deti = $nombre;
-
     $query_create = "insert into contactos(nombre, telefono, email, comentario)"
             . " values('$nombre', '$telefono', '$email', '$comentario');";
     

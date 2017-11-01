@@ -8,7 +8,7 @@
 <div id="navMenu">
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
-            <a href="index.php">
+            <a href="home">
                 <img alt="Brand" src="img/lastmonkey.gif" class="imgCoorp hidden-xs" />
             </a>
             <div class="navbar-header">
@@ -18,7 +18,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a id="textoNavMovil" class="navbar-brand visible-xs" href="index.php">Last Monkey</a>
+                <a id="textoNavMovil" class="navbar-brand visible-xs" href="home">Last Monkey</a>
                 <!--
                 visible-xs  visible en movil
                 hidden-xs visible en web
@@ -41,13 +41,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="index.php">Inicio</a>
+                        <a href="home">Inicio</a>
                     </li>
                     <li>
-                        <a href="contacto.php">Contacto</a>
+                        <a href="contacto">Contacto</a>
                     </li>
                     <li>
-                        <a href="loggin.php">Acceso</a>
+                        <a href="acceso">Acceso</a>
                     </li>
                 </ul>
             </div>

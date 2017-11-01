@@ -25,7 +25,7 @@
         </div>
         <div id="botoneraFormContacto">
             <button type="submit" class="btn btn-primary btn-sm">Enviar</button>
-            <a href="index.php" class="btn btn-primary btn-sm">Volver</a>
+            <a href="home" class="btn btn-primary btn-sm">Volver</a>
         </div>
     </form>
 </div>
