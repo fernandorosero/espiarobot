@@ -2,3 +2,15 @@ Options All -Indexes
 ErrorDocument 500 /espiarobot/msg/500.php
 ErrorDocument 403 /espiarobot/msg/403.php
 ErrorDocument 404 /espiarobot/msg/404.php
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule ^home index.php
+RewriteRule ^contacto contacto.php
+RewriteRule ^acceso loggin.php
+#RewriteCond %{REQUEST_FILENAME} !-f RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^guardarContacto/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/$ controller/GuardarContacto.php?nombre=$1&telefono=$2$email=$3&comentario=$4&errorusuario=$5 [L] 
+#Rewriterule ^guardarContacto/(.*)/(.*)/(.*)/(.*)/(.*)/$ GuardarContacto.php?nombre=$1&telefono=$2&email=$3&comentario=$4&errorusuario=$5
+
+#?nombre=$1&telefono=$2&email=$3&comentario=$4&errorusuario=$5 [L]
+
+#([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/([a-zA-Z0-9]+)/([a-zA-Z0-9]+) 
