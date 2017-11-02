@@ -25,11 +25,35 @@ function PruebaLed(){
            type:'POST',
            success: function(response){
              
-             alert("very nice");
+             //alert("very nice");
            },
            error: function(){
-               alert("no junjona ajax!!!!");
+               //alert("no junjona ajax!!!!");
            }
         });
+}
+function WebLeftRightServoMotor(){
+    $.ajax({
+        url: 'php_python/servo_left_right.py',
+        type: 'POST',
+        succes: function(response){
+            
+        },
+        error: function(){
+            
+        }
+    });
+}
+function WebUpDownServoMotor(){
+    $.ajax({
+        url: 'php_python/servo_up_down.py',
+        type: 'POST',
+        succes: function(response){
+            
+        },
+        error: function(){
+            
+        }
+    });
 }
 /*********PYTHON*************/
