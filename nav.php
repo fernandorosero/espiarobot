@@ -9,7 +9,7 @@
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <a href="home">
-                <img alt="Brand" src="img/lastmonkey.gif" class="imgCoorp hidden-xs" />
+                <img alt="Brand" src="img/lastmonkey.gif" class="imgCoorp hidden-xs animated tada" />
             </a>
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
