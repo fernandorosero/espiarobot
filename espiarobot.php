@@ -15,9 +15,9 @@
         <div id="contenedor">
             <div id="imagen">
                 <?php
-                    $ipRaspberry = "http://192.168.0.161:8081";
+                    $ipRaspberry = "http://192.168.0.161:2011";
                     echo '<img id="imgImagen" src="'.$ipRaspberry.'"/>';
-                    $ipRaspberry1 = "http://lastmonkey.sytes.net:8081";
+                    $ipRaspberry1 = "http://lastmonkey.sytes.net:2011";
                     echo '<img id="imgImagen1" src="'.$ipRaspberry1.'"/>';
                 ?>
             </div>

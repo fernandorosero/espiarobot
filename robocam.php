@@ -12,7 +12,7 @@
                 if ($host == "localhost") {
                     $host = "192.168.0.161";
                 }
-                $ipRaspberry = "http://".$host.":8081";
+                $ipRaspberry = "http://".$host.":2011";
                 //echo 'Es la variable: : '.$ipRaspberry;
                 //$ipRaspberry = "http://192.168.0.161:8081";
                 echo '<img id="imgImagen" src="'.$ipRaspberry.'"/>';
