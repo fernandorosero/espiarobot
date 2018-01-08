@@ -26,7 +26,7 @@
     /*Local*/
     $url = "localhost";
     $user = "monkey";
-    $password = "45451978";
+    $password = "4545";
     
     /*Produccion
     $url="localhost";
