@@ -2,7 +2,7 @@
 
     include_once '../utils/LastMonkeyConstantes.php';
     $slq = 'create database '.$db_name;
-    $conexion_crearModelo = mysql_connect($url, $user, $password);
+    $conexion_crearModelo = mysqli_connect($url, $user, $password);
     if(mysql_query($slq, $conexion_crearModelo)){
         echo 'La base de datos '.$db_name.' se cre&oacute; correctamente. ';
     }
