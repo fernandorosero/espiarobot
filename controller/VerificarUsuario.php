@@ -14,13 +14,15 @@
             . "where (usuario='$usuario' && "
             . "password ='$password');";
             
-    $query = mysql_query($query_verify_user, $conexion_db)
-            or die("300");
+    //$query = mysql_query($query_verify_user, $conexion_db) or die("300");
+    
+   $query = mysqli_query($con, $query_verify_user) or die("300");
+   
    /* $query = @mysql_db_query($db_name, $query_verify_user, $conexion_db) or die(mysql_error());
     echo 'es el query '.mysql_result($query,0, "usuario");
     echo 'es el query '.mysql_result($query,0, "password");
    */
-    if ($row = mysql_fetch_array($query)){ 
+    if ($row = mysqli_fetch_array($query)){ 
             echo"<body onLoad='javascript:enviarForm();'>";
                 echo"<form name='loginSend' action='../index.php' method='post'>";
                     echo"<input type='hidden' name='usuario' value='$usuario'/> ";

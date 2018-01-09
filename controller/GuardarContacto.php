@@ -11,8 +11,9 @@
     $query_create = "insert into contactos(nombre, telefono, email, comentario)"
             . " values('$nombre', '$telefono', '$email', '$comentario');";
     
-    $query = mysql_query($query_create, $conexion_db)
-            or die("400");
+	$query = mysqli_query($con, $query_create);
+            
+   // $query = mysql_query($query_create, $conexion_db) or die("400");
     
     if($query){
         $errorUsuario = 200;

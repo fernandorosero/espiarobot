@@ -41,13 +41,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="index.php">Inicio</a>
+                        <a href="home">Inicio</a>
                     </li>
                     <li>
-                        <a href="contacto.php">Contacto</a>
+                        <a href="contacto">Contacto</a>
                     </li>
                     <li>
-                        <a href="loggin.php">Acceso</a>
+                        <a href="acceso">Acceso</a>
                     </li>
                 </ul>
             </div>
