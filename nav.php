@@ -8,7 +8,7 @@
 <div id="navMenu">
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
-            <a href="home">
+            <a href="index.php">
                 <img alt="Brand" src="img/lastmonkey.gif" class="imgCoorp hidden-xs animated fadeInRight" />
             </a>
             <div class="navbar-header">
@@ -41,13 +41,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="home">Inicio</a>
+                        <a href="index.php">Inicio</a>
                     </li>
                     <li>
-                        <a href="contacto">Contacto</a>
+                        <a href="contacto.php">Contacto</a>
                     </li>
                     <li>
-                        <a href="acceso">Acceso</a>
+                        <a href="loggin.php">Acceso</a>
                     </li>
                 </ul>
             </div>
