@@ -2,7 +2,6 @@
     $argumento = filter_input(INPUT_POST, "arg");
     echo 'Es lo que llega ::'.$argumento;
     echo exec ('sudo python /var/www/html/espiarobot/python/servo_left_right.py '.$argumento);
-    
     //echo exec('sudo python /var/www/html/espiarobot/python/led.py');
 
 

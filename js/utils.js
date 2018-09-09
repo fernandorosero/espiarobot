@@ -18,7 +18,6 @@ function leftRightServo(inicioServoLeftRight){
         }
     }); 
 }
-
 function enviarForm(){
     document.loginSend.submit();
 }
