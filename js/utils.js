@@ -16,8 +16,9 @@ function leftRightServo(inicioServoLeftRight){
         error: function() {
             alert ("No funciona!!!");
         }
-    });
+    }); 
 }
+
 function enviarForm(){
     document.loginSend.submit();
 }

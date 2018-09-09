@@ -19,3 +19,4 @@ p.ChangeDutyCycle(float(posicion))
 time.sleep(0.5)
 p.stop()                      #Detenemos el servo
 GPIO.cleanup()                #Limpiamos los pines GPIO de la Raspberry y cerra$
+
